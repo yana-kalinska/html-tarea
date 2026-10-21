@@ -50,26 +50,80 @@
       <a href=""></a>
 
       <section>
-        <h2>Contacta</h2>
+        <h2>Contactar</h2>
         <p>Marta particular: Llamar al <a href="tel:+34612345678">+34 612 34 56 78</a></p>
 
         <form>
           <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required />
+            <label for="nombre">Nombre</label> 
+            <input type="text" id="nombre" name="nombre" placeholder="John Doe" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+            <label for="telefono-principal">Tu teléfono</label>
+            <input type="tel" id="telefono-principal" name="telefono-principal" placeholder="+34123456789" required />
           </div>
           <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <label for="motivo">Motivo</label>
+            <select name="motivo" id="motivo">
+              <option value="default" disabled selected>Selecciona una opcion
+              </option>
+              <option value="visita">Quiero visitarlo</option>
+              <option value="pregunta">Tengo una pregunta</option>
+              <option value="otro">Otro</option>
+            </select>
           </div>
           <div>
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required />
+            <label for="date">¿Cuándo?</label>
+            <input type="date" name="date" id="date">
           </div>
-          
+
+        <br/>
+
+          <fieldset>
+            <legend>¿Cómo prefieres que te contactemos?</legend>
+            <input type="radio" name="radio" id="radio"> <label for="radio">Telefono</label> 
+            <input type="radio" name="radio" id="radio2"> <label for="radio2">Correo</label>
+          </fieldset>
+
+          <br/>
+
+          <div>
+            <label for="text-area">Mensaje</label> <br/>
+            <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje"></textarea>
+          </div>
+
+          <br/>
+
+          <input type="submit" value="Subir">
+
         </form>
       </section>
  
     </main>
+
+    <aside>
+      <h2>Pisos parecidos</h2>
+      <ul>
+        <li><a href="./piso-en-sant-antoni">
+          <img height="500" width="800" src="https://www.hola.com/horizon/square/f67bc68fadf5-piso-modernista-barcelona-vania-interior-design-provenca-255-apartments-ignas.jpg?im=Resize=(960),type=downsize" alt="Piso en Sant Antoni"> 
+          <br/> Piso en Sant Antoni</a>
+        </li>
+        <li><a href="./piso-en-sant-marti">
+          <img height="500" width="800" src="https://www.hola.com/horizon/landscape/ce10f358b1aa-proyecto-ingrid-matheu-01.jpg?im=Resize=(960),type=downsize" alt="Piso en Sant Marti"> 
+          <br/> Piso en Sant Marti</a>
+        </li>
+        <li><a href="./piso-en-gracia">
+          <img height="500" width="800" src="https://www.realia.es/storage/Blog/comprar-casa-o-piso-1698920869WDvc5.jpg" alt="Piso en Gracia"> 
+          <br/> Piso en Gracia</a>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      copyright  BRAND name |
+      <a href="./policy">Política de Privacidad</a>
+    </footer>
+
   </body>
 </html>
