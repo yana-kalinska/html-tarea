@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pisito en Gracia</title>
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <header>
+    <header class="menu">
       <a href="">Pisito</a>
 
       <!-- Esto es el menu-->
       <nav>
-        <ul>
+        <ul class="menu_list">
           <li><a href="#alquilar">Alquilar</a></li>
           <li><a href="#comprar">Comprar</a></li>
           <li><a href="#publicar">Publicar anuncio</a></li>
@@ -21,6 +23,8 @@
     </header>
 
     <main>
+
+      <section class="property-data">
       <h1>Piso con el balcón en Gracia</h1>
       <p><strong>1250 €</strong> al mes</p>
 
@@ -48,18 +52,24 @@
         <li>Trae tu DNI el día de la visita</li>
       </ol>
       <a href=""></a>
+      </section>
 
-      <section>
-        <h2>Contactar</h2>
-        <p>Marta particular: Llamar al <a href="tel:+34612345678">+34 612 34 56 78</a></p>
+      <section class="contact">
+        <div>
+          <h2>Contactar</h2>
+          <p>Marta particular: Llamar al <a href="tel:+34612345678">+34 612 34 56 78</a></p>
+        </div>
 
         <form>
           <div>
             <label for="nombre">Nombre</label> 
             <input type="text" id="nombre" name="nombre" placeholder="John Doe" required />
-
+          </div>
+          <div>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="email@example.com" required />
+          </div>
+          <div>
             <label for="telefono-principal">Tu teléfono</label>
             <input type="tel" id="telefono-principal" name="telefono-principal" placeholder="+34123456789" required />
           </div>
@@ -91,6 +101,13 @@
           <div>
             <label for="text-area">Mensaje</label> <br/>
             <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje"></textarea>
+          </div>
+
+          <br/>
+
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox" required checked/> 
+            <label for="checkbox">Acepto la <a href="./policy">política de privacidad</a></label>
           </div>
 
           <br/>
