@@ -6,6 +6,11 @@
     <title>Pisito en Gracia</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js" defer></script>
+    <script src="js/poster.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.min.js" defer></script>
+    <script src="js/background-comet.js" defer></script>
   </head>
 
   <body>
@@ -35,6 +40,16 @@
 
      <h2>Descripción</h2>
      <p>Este es un piso en Gracia, con un balcón que ofrece vistas a la calle. Es ideal para una familia o pareja que busca un espacio moderno y luminoso.</p>
+
+     <section class="pokemon-resident" aria-label="Habitante Pokémon: Pikachu">
+       <img
+         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+         alt="Pikachu"
+         width="64"
+         height="64"
+       />
+       <p><strong>Habitante Pokémon</strong><span>Pikachu</span></p>
+     </section>
 
      <h2>Características</h2>
      <ul>
@@ -124,21 +139,36 @@
       <ul>
         <li><a href="./piso-en-sant-antoni">
           <img height="500" width="800" src="https://www.hola.com/horizon/square/f67bc68fadf5-piso-modernista-barcelona-vania-interior-design-provenca-255-apartments-ignas.jpg?im=Resize=(960),type=downsize" alt="Piso en Sant Antoni"> 
-          <br/> Piso en Sant Antoni</a>
+          <br/> Piso en Sant Antoni
+          <span class="pokemon-habitant">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="" width="48" height="48" loading="lazy" />
+            <span>Habitante: Eevee</span>
+          </span>
+        </a>
         </li>
         <li><a href="./piso-en-sant-marti">
           <img height="500" width="800" src="https://www.hola.com/horizon/landscape/ce10f358b1aa-proyecto-ingrid-matheu-01.jpg?im=Resize=(960),type=downsize" alt="Piso en Sant Marti"> 
-          <br/> Piso en Sant Marti</a>
+          <br/> Piso en Sant Marti
+          <span class="pokemon-habitant">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="" width="48" height="48" loading="lazy" />
+            <span>Habitante: Charmander</span>
+          </span>
+        </a>
         </li>
         <li><a href="./piso-en-gracia">
           <img height="500" width="800" src="https://www.realia.es/storage/Blog/comprar-casa-o-piso-1698920869WDvc5.jpg" alt="Piso en Gracia"> 
-          <br/> Piso en Gracia</a>
+          <br/> Piso en Gracia
+          <span class="pokemon-habitant">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="" width="48" height="48" loading="lazy" />
+            <span>Habitante: Squirtle</span>
+          </span>
+        </a>
         </li>
       </ul>
     </aside>
 
     <footer>
-      copyright  BRAND name |
+      copyright  Pisito |
       <a href="./policy">Política de Privacidad</a>
     </footer>
 
