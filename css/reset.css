@@ -131,10 +131,10 @@ input, button, textarea, select {
 /* Strips OS-level native styling from interactive elements.
    Leaves border and background intact, providing accessibility by default.
    Visual styling should be handled by the design system. */
-input, button, textarea, select {
+/* input, button, textarea, select {
   -webkit-appearance: none;
   appearance: none;
-}
+} */
 
 /* Anything interactive should signal clickability.
    'button' attribute targets [type="button"], [type="submit"], etc. */

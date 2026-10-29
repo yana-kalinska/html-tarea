@@ -45,7 +45,7 @@ body {
 main {
     display: flex;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 20px;
     padding: 12px 0;
     gap: 24px;
     flex-wrap: wrap;
@@ -91,4 +91,40 @@ input, select, textarea {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.15);
     padding: 4px 8px;
+}
+
+a {
+    color: rgb(44, 76, 255);
+    text-decoration: underline;
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.price {
+    color: rgb(44, 76, 255);
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+figure {
+    font-size: 12px;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 12px auto;
+}
+
+main label {
+    font-weight: bold;
 }
