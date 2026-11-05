@@ -1,4 +1,4 @@
-@import './reset.css';
+@import url('../../../shared/css/reset.css');
 
 :root {
     --background-color: rgb(221, 242, 255);
