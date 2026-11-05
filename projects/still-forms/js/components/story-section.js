@@ -8,7 +8,7 @@
     !(template instanceof HTMLTemplateElement) ||
     !Array.isArray(sections)
   ) {
-    console.error("Could not render the visual story: section data or template is missing.");
+    console.error("No se pudo mostrar la historia visual: faltan los datos o la plantilla de las secciones.");
     return;
   }
 
